@@ -1,0 +1,81 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-height: 900px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container *{
+    text-align: center;
+}
+form#text-settings {
+    background-color: rgb(48, 48, 48);
+}
+form#text-settings div{
+    padding: 20px 0px 20px 0px;
+}
+p {
+    width: 50%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+textarea {
+    min-width: 400px;
+    min-height: 200px;
+}
+hr {
+    width: 300px;
+    border: 1px solid rgb(12, 12, 12);
+}
+input#submit {
+    min-width: 150px;
+    min-height: 60px;
+    font-size: 1.5em;
+    color: #d4d4d4;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-style: solid;
+    border-radius: 0.3rem;
+}
+input#submit:hover{
+    background-color: #006ee4;
+    border-color: #006ee4;
+}
+
+/* reader.php styles */
+header {
+    background-color: rgb(48, 48, 48);
+}
+header *{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a#return-arrow{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    
+    max-width: 150px;
+    text-decoration: none;
+    color: white;
+}
+img {
+    max-width: 20%;
+}
+div#word-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 900px;
+}
+h1#word {
+    font-size: 10rem;
+}
