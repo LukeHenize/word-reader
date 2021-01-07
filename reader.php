@@ -1,7 +1,7 @@
 <?php
-    $title = $_POST['title']; //holds text title
-    $wpm = $_POST['wpm']; //holds words per minute
-    $text = $_POST['text'];
+    $title = htmlspecialchars($_POST['title']); //holds text title
+    $wpm = htmlspecialchars($_POST['wpm']); //holds words per minute
+    $text = htmlspecialchars($_POST['text']);
     $words = explode(' ', $text); //(array) holds each word of text
 ?>
 <!DOCTYPE html>

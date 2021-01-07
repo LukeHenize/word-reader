@@ -9,7 +9,6 @@
 <body>
     <div class="container">
         <h1 id="title">The Word Reader</h1>
-        <h2 id="author"></h2>
         <p id="project-info"></p>
     </div>
 
@@ -26,14 +25,19 @@
                 min="100" max="700" value="500">
             </div><hr>
             <div>
-                <label>Text</label>
+                <label>Text of Your Reading</label>
                 <p></p>
-                <textarea name="text"></textarea><br>
+                <textarea name="text"></textarea>
+                <br><hr><br>
                 <input id="submit" type="submit" value="Start Reading">
             </div> 
             
         </form>
     </div>
-
+    <footer class="container">
+        <p id="about">Programmed by <a href="https://twitter.com/LukeHenize">
+        Luke Henize</a>. You can help contribute too on 
+        <a href="https://github.com/LukeHenize/word-reader">GitHub</a>.</p>
+    </footer>
 </body>
 </html>
