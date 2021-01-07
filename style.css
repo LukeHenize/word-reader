@@ -20,10 +20,9 @@ form#text-settings {
 form#text-settings div{
     padding: 20px 0px 20px 0px;
 }
-p {
-    width: 50%;
-    max-width: 500px;
-    margin: 10px auto;
+p#project-info {
+    width: 60%;
+    margin: 20px auto;
 }
 textarea {
     min-width: 400px;
@@ -78,6 +77,21 @@ div#word-container {
 }
 h1#word {
     font-size: 10rem;
+}
+@media(max-width: 880px) {
+    h1#word {
+        font-size: 7rem;
+    }
+}
+@media(max-width: 700px) {
+    h1#word{
+        font-size: 5rem;
+    }
+}
+@media(max-width: 500px) {
+    h1#word {
+        font-size: 4rem;
+    }
 }
 a {
     color: white;

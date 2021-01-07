@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="container">
-            <a id="return-arrow" href="index.php">
+            <a id="return-arrow" href="index.html">
                 <img src="chevron-left.png">
                 <h3>Change Text</h3>
             </a>
